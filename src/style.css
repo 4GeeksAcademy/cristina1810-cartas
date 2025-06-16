@@ -1,5 +1,22 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: url(https://img.freepik.com/vector-gratis/fondo-mesa-poquer-gradiente_23-2151085419.jpg?t=st=1749821733~exp=1749825333~hmac=5d54375d2e8a7fc6f33f990d5a74e52654b37a65f3c9a9d1483421250275f363&w=2000);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: 'Playfair Display';
 }
+#paloA , #paloB {
+font-size: 3.5vw;
+}
+#num {
+    font-size: 4vw;
+}
+.carta {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
+      border-radius: 1rem;
+}
+
+
