@@ -9,14 +9,26 @@ body{
   font-family: 'Playfair Display';
 }
 #paloA , #paloB {
-font-size: 3.5vw;
+font-size: 2vw;
 }
 #num {
-    font-size: 4vw;
+    font-size: 3vw;
 }
-.carta {
+.card {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.534);
       border-radius: 1rem;
 }
 
+#btnGenerar, #btnResize {
+  font-weight: bold;
+}
 
+.countdown{
+  font-size: 1vw;
+  color:white;
+}
+
+.letra {
+    font-size: 0.8vw;
+  color:white;
+}
